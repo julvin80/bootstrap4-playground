@@ -1,0 +1,84 @@
+/* Jul STYLES
+-------------------------------------------------- */
+
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.container-fluid h1 {
+	font-size: 30px;
+	text-transform:uppercase;
+	color: #fff;
+	margin: 0px 25px;
+	font-family: "Oranienbaum",serif;
+	font-weight: 600;
+}
+
+.container-fluid span {
+	color:#fff
+}
+
+.container-fluid p {
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 10px 25px;
+	font-family: "Open Sans";
+	font-size: 12px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+
+.jumbotron {
+	padding: 100px 0;
+    background-color: #333;
+}
+
+.no-padding{
+padding: 0;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 576px){
+	.card-img-overlay {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+	}
+
+	.container-fluid h1 {
+	font-size: 60px;
+	}
+
+	.container-fluid p {
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 10px 25px;
+	font-family: "Open Sans";
+	font-size: 25px;
+	}
+}
