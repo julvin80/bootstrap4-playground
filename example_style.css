@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
+body {
+	background: #222222;
+	overflow-x: hidden;
+	width: 100%;
+}
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+a {
+	outline: 0px !important;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+.masthead {
+	background: url("file:///D:/WEB/workspace/bootstrap4-playground/img/biulder_051.jpg") 50% 0 fixed no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.masthead h1 {
+	font-size:60px;
+	text-transform:uppercase;
+	color: #fff;
+	margin: 0px 25px;
+	font-family: "Oranienbaum",serif;
+	font-weight: 600;
+}
+.masthead span {
+color:#fff
+}
+.masthead p {
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 10px 25px;
+	font-family: "Open Sans";
+	font-size:17px;
+
+}
+.content-box {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.button {
+	display: inline-block;
+}
+.button a {
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	display: inline-block;
+	font-family: "Montserrat";
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.button a:hover {
+	background: #000;
+	border-color: #000;
+}
+.content-head h2 {
+	color: #fff;
+	text-align: center;
+	font-family: "Raleway";
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin: 50px 0px 10px 0px;
+	font-size: 25px;
+}
+h3 {
+	padding-top: 0px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "Montserrat";
+	font-weight: 600;
+	color: #fff;
+}
+.content-box h4 {
+	color: #fff;
+	text-align: center;
+	font-family: "Montserrat";
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin:20px 20px 50px 20px;
+	font-size: 21px;
+	text-transform:uppercase;
+}
+
+.selector {
+	padding: 30px;
+	/*border: 1px solid;*/
+	-webkit-transition: all .8s linear;
+	-moz-transition: all .8s linear;
+	-ms-transition: all .8s linear;
+	-o-transition: all .8s linear;
+	transition: all .8s linear;
+}
+.selector div {
+	text-align: center;
+	margin-top: 20px;
+	-webkit-transition: all .8s linear;
+	-moz-transition: all .8s linear;
+	-ms-transition: all .8s linear;
+	-o-transition: all .8s linear;
+	transition: all .8s linear;
+}
+.selector img {
+	margin: 0 auto;
+	display: inline-block;
+	opacity: 1;
+	-webkit-transition: all .8s linear;
+	-moz-transition: all .8s linear;
+	-ms-transition: all .8s linear;
+	-o-transition: all .8s linear;
+	transition: all .8s linear;
+}
+.selector div {
+	position: relative;
+	padding-bottom: 3px;
+}
+.selector div:after {
+	content: '';
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+	height: 6px;
+	width: 0px;
+	background: transparent;
+	-webkit-transition: width .5s ease, background-color .8s ease;
+	-moz-transition: width .5s ease, background-color .8s ease;
+	-ms-transition: width .5s ease, background-color .8s ease;
+	-o-transition: width .5s ease, background-color .8s ease;
+	transition: width .5s ease, background-color .8s ease;
+}
+
+.selector:hover img {
+	opacity: .7;
+}
+.text-center {
+	text-align: center;
+}
+.footer {
+
+	background:#222222;
+	font-family: "Montserrat";
+    color: #c1c1c4;
+    font-size: 13px;
+    height: 74px;
+    line-height: 74px;
+    text-align: center;
+}
